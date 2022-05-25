@@ -14,10 +14,11 @@
         <ul class="Articles">
             {%- for post in collections.post -%}
             <article class="article">
-                <div class="article-test">
+                <div class="article-text">
                     <h3 class="article-title">{{post.data.title}}</h3>
                     <img src="{{post.data}}" alt="" class="img-preview">
                 </div>
+                <img src="{{post.data.image}}" alt="" class="img-preview">
             </article>
             {%- endfor -%}
         </ul>
