@@ -1,4 +1,4 @@
 ---
 title: Dachshund
-image:
+image: /media/Sophie.jpg
 ---
