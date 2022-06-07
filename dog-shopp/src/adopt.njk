@@ -16,9 +16,10 @@
             <article class="article">
                 <div class="article-text">
                     <h3 class="article-title">{{post.data.title}}</h3>
+                    <h4 class="article-price">{{post.data.price}}</h4>
                     <img src="{{post.data}}" alt="" class="img-preview">
                 </div>
-                <button class="btn">More Info</button>
+                <button class="btn"><a href="{{post.data.url}}">More Info</a></button>
                 <img src="{{post.data.image}}" alt="" class="img-preview">
             </article>
             {%- endfor -%}
